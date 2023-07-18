@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		598E98E62A6629B100F8D701 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598E98E52A6629B100F8D701 /* StartButtonView.swift */; };
 		598E98E82A662BCC00F8D701 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598E98E72A662BCC00F8D701 /* OnboardingView.swift */; };
+		598E98ED2A662D9000F8D701 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598E98EC2A662D9000F8D701 /* FruitData.swift */; };
+		598E98F12A662DEE00F8D701 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598E98F02A662DEE00F8D701 /* Fruit.swift */; };
 		59E6D4142A649A5000D51B19 /* iOS_Fructus2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6D4132A649A5000D51B19 /* iOS_Fructus2023App.swift */; };
 		59E6D4162A649A5000D51B19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E6D4152A649A5000D51B19 /* ContentView.swift */; };
 		59E6D4182A649A5300D51B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E6D4172A649A5300D51B19 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		598E98E52A6629B100F8D701 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		598E98E72A662BCC00F8D701 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		598E98EC2A662D9000F8D701 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FruitData.swift; path = "iOS-Fructus2023/Modal/FruitData.swift"; sourceTree = "<group>"; };
+		598E98F02A662DEE00F8D701 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fruit.swift; path = "iOS-Fructus2023/Modal/Fruit.swift"; sourceTree = "<group>"; };
 		59E6D4102A649A5000D51B19 /* iOS-Fructus2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Fructus2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E6D4132A649A5000D51B19 /* iOS_Fructus2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Fructus2023App.swift; sourceTree = "<group>"; };
 		59E6D4152A649A5000D51B19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		598E98EB2A662D7300F8D701 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				598E98EC2A662D9000F8D701 /* FruitData.swift */,
+				598E98F02A662DEE00F8D701 /* Fruit.swift */,
+			);
+			name = Modal;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		59E6D4072A649A5000D51B19 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +73,7 @@
 		59E6D4122A649A5000D51B19 /* iOS-Fructus2023 */ = {
 			isa = PBXGroup;
 			children = (
+				598E98EB2A662D7300F8D701 /* Modal */,
 				59E6D4252A649D0C00D51B19 /* View */,
 				59E6D4212A649C9A00D51B19 /* App */,
 				59E6D4242A649CAD00D51B19 /* Utilities */,
@@ -173,11 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598E98F12A662DEE00F8D701 /* Fruit.swift in Sources */,
 				59E6D4232A649CA900D51B19 /* ColorExtension.swift in Sources */,
 				59E6D4272A649D2400D51B19 /* FruitCardView.swift in Sources */,
 				59E6D4162A649A5000D51B19 /* ContentView.swift in Sources */,
 				598E98E82A662BCC00F8D701 /* OnboardingView.swift in Sources */,
 				598E98E62A6629B100F8D701 /* StartButtonView.swift in Sources */,
+				598E98ED2A662D9000F8D701 /* FruitData.swift in Sources */,
 				59E6D4142A649A5000D51B19 /* iOS_Fructus2023App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
